@@ -14,11 +14,11 @@ class _MyAppState extends State<MyApp> {
   var _questionIndex = 0;
 
   void _answerQuestion() {
-    if(_questionIndex<2){
       setState(() {
+        if(_questionIndex<2){
         _questionIndex += 1;
+        }
     });
-    }
     
   }
 
